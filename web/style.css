@@ -1,0 +1,132 @@
+*{
+	font-family: "Roboto", sans-serif;
+	box-sizing: border-box;
+	font-weight: 300;
+}
+body{
+	background: #FF5F6D;
+	background: -webkit-linear-gradient(to right, #ffbe6b, #ff716c);
+	background: linear-gradient(to right, #ffbe6b, #ff716c);
+
+	color: white;
+	margin: 0;
+	padding: 0;
+}
+
+.main{
+	width: 500px;
+	height: 300px;
+}
+
+.left{
+	float: left;
+	width: 65%;
+	height: 100%;
+}
+.right{
+	float: left;
+	width: 35%;
+	height: 100%;
+	padding: 0;
+}
+
+#img {
+	border-radius: 15%;
+	width: 100px;
+	height: 100px;
+	margin: 50px auto 0;
+    background: linear-gradient(85deg, #ffa15c, #ff7e5a, #1be183, #1bcce1, #c20cff);
+    background-size: 1000% 1000%;
+
+    -webkit-animation: AnimationName 45s ease infinite;
+    animation: AnimationName 45s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:2% 0%}
+    50%{background-position:99% 100%}
+    100%{background-position:2% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:2% 0%}
+    50%{background-position:99% 100%}
+    100%{background-position:2% 0%}
+}
+
+#hex{
+	background: grey;
+	opacity: 0.6;
+	width: 200px;
+	height: 34px;
+	border-radius: 15px;
+	margin: 20px auto;
+	text-align: center;
+	line-height: 34px;
+	font-size: 28px;
+	padding: 0;
+}
+
+.button-wrapper{
+	margin: auto;
+}
+#button{
+	display: block;
+	width: 200px;
+	border: none;
+	margin: 15px auto;
+	background: linear-gradient(to right, #785ad6, #4aabce, #785ad6);
+	border-radius: 10px;
+	padding: 10px 20px;
+	color: white;
+	outline: none;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	cursor: pointer;
+	transition: .4s;
+	background-size: 175%;
+}
+#button:hover{
+	background-position: right;
+}
+
+#color-list{
+	width: 60%;
+	height: 60%;
+	margin: 30% auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background: #ffa15c;
+	border-radius: 5px;
+	/*border: 1px solid black;*/
+	box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.clr-box{
+	width: 90%;
+	height: 20px;
+	margin: auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 0;
+	border-bottom: 1px solid gray;
+	box-shadow: 0px 0px 15px 0px rgba(34, 60, 80, 0.2);
+}
+.clr{
+	float: left;
+	width: 15px;
+	height: 15px;
+	background: none;
+	margin: 2px 10px 2px 2px;
+	padding: 0;
+}
+
+#clear{
+	width: 70px;
+	height: 23px;
+	border-radius: 8px;
+	background: white;
+	margin: 10px auto;
+	margin-left: 15%;
+	border: 1px solid gray;
+}

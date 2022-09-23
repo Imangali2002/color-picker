@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Color Picker</title>
+	
+	<script src="/eel.js"></script>
+	<script src="script.js"></script>
+	<link rel="icon" type="image/png" href="ico.png">
+
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<div class='main'>
+
+		<div class="left">
+			<div id="img">
+				<!-- background color -->
+			</div>
+			<div id="hex">
+				HEX
+			</div>
+			<div class="button-wrapper">
+				<button id="button" onclick="pick()">PICK</button>
+			</div>
+		</div>
+		<div class="right">
+
+			<div id="color-list">
+
+				<div class='clr-box' id='clr-box-1'>
+					<div class='clr' id='clr-1'>
+						
+					</div>
+					<div id='hex-1'>
+						
+					</div>
+				</div>
+
+				<div class='clr-box' id='clr-box-2'>
+					<div class='clr' id='clr-2'>
+						
+					</div>
+					<div id='hex-2'>
+						
+					</div>
+				</div>
+
+				<div class='clr-box' id='clr-box-3'>
+					<div class='clr' id='clr-3'>
+						
+					</div>
+					<div id='hex-3'>
+						
+					</div>
+				</div>
+
+				<div class='clr-box' id='clr-box-4'>
+					<div class='clr' id='clr-4'>
+						
+					</div>
+					<div id='hex-4'>
+						
+					</div>
+				</div>
+
+				<div class='clr-box' id='clr-box-5'>
+					<div class='clr' id='clr-5'>
+						
+					</div>
+					<div id='hex-5'>
+						
+					</div>
+				</div>
+				<button id="clear" onclick="clear_list()">CLEAR</button>
+			</div><!-- color-list -->
+
+		</div><!-- right -->
+
+	</div><!-- main -->
+</body>
+</html>
